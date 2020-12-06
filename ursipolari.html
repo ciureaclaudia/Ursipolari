@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<body>
+
+<!-- Meniu -->
+<nav class="w3-bar w3-black">
+  <a href="ursipolari.html" class="w3-button w3-bar-item">Pagina principala</a>
+  <a href="URSPOLAR.html" class="w3-button w3-bar-item">Urs polar</a>
+  <a href="VULPEPOLARA.html" class="w3-button w3-bar-item">Vulpe polara</a>
+  <a href="LUPPOLAR.html" class="w3-button w3-bar-item">Lup polar</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg" 
+  style="width:100%" height="900">
+  <img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Iceland-1979445_%28cropped_3%29.jpg/800px-Iceland-1979445_%28cropped_3%29.jpg"
+  style="width:100%" height="900">
+  <img class="mySlides" src="https://www.thoughtco.com/thmb/0RCkIM8V3EgmGQD0N1YtEqxAtBw=/2250x1500/filters:fill(auto,1)/156477450-56a008583df78cafda9fb4b9.jpg"
+  style="width:100%" height="900">
+</section>
+
+<!-- Descriere site -->
+<section class="w3-container w3-center w3-content" style="max-width:900px">
+   
+  <h3 class="w3-wide">CERCUL ARCTIC</h3>
+  
+  <p class="w3-justify">Cercul polar arctic (de nord) este unul dintre cele cinci principale paralele terestre. Este vorba de paralela aflată la o latitudine de 66º33'43'' Nord (în anul 2010). Spațiul situat la nord de el și până la pol se numește Arctica. </p>
+  
+  <h3 class="w3-wide">ANIMALE POLARE</h3>
+  
+  <p class="w3-justify">Animalele și plantele din zona Arctică sunt, prin morfologie și comportament, adaptate la condițiile specifice regiunilor de la nord de cercul polar (66° 32′ Nord). Scurtul anotimp de creștere este cu siguranță cel mai important factor de constrângere pentru fauna și flora din regiunea arctică, care sunt limitate de temperatură, lumină, și calota glaciară. Productivitatea marină la pol este mai mare sau mai mică, în funcție de an, anotimp și apropierea de pol, iar creșterea biomasei⁠ nu depășește 100 mgC/m2/zi în centrul bazinului polar, acesta este de două până la de cinci ori mai mică decât în zona deschisă din Oceanul Arctic. Prezența vieții în această parte a banchizei nu este mai mare decât în largul mării⁠; producția primară măsurată în Mediterana de vest este echivalentă cu cea de aici, spre deosebire de zonele de foarte mare randament cum sunt coastele reci ale Perului, unde biomasa este de o sută de ori mai productivă.</p>
+ 
+ <p class="w3-justify"> Aici veți putea găsi informații in legatura cu trei specii de animale care traiesc in zona nordica: </p>
+</section>
+
+<style>
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+</style>
+
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+<ul>
+  <li class="w3-justify">Urs polar</li>
+  <li class="w3-justify">Vulpe polara</li>
+  <li class="w3-justify">Lup polar</li>
+</ul>
+</section>
+
+<section class="w3-container  w3-content" style="max-width:900px">
+<p>Daca vrei sa afli mai multe legate despre Polul Nord si  fauna de acolo, atunci aboneaza-te pentru a primi lunar pe mail articolele noastre.</p>
+<h4>Formular de inregistrare </h4>
+
+<form action="insert.php" method="POST">
+   <label for="fname">Nume si prenume:</label><br>
+  <input type="text" id="fname" name="fname" value=" "><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="lname" name="lname" value=" "><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</section>
+<head>
+
+
+<script>
+// Automatic Slideshow 
+var ok = 0;
+ana();
+<section class="w3-container  w3-content" style="max-width:100px">
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 3s;
+}
+
+
+</style>
+</section>
+</head>
+
+<div></div>
+
+function ana() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+	@keyframes example {
+	from {background-color: green;}
+  to {background-color: blue;}
+  }}
+  ok++;
+  if (ok > x.length) {ok = 1}
+  x[ok-1].style.display = "block";
+  setTimeout(ana, 3000);
+}
+
+</script>
+
+
+
+
+
+<marquee scrollamount="5"
+direction="left"
+behavior="scroll">
+Bunaaa!
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS72l-nBejpTrJ6xd-1ZOcbPMP_ESqRkvUvA&usqp=CAU" />
+</marquee>
+
+
+
+
+
+
+
+<script>
+// Automatic Slideshow 
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+</script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://www.facebook.com/claudia.ciurea.3/about"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/claudia_maria_ciurea/"><i class="fa fa-instagram"></i></a>
+  <h5>Claudia Maria Ciurea</h5>
+  <h5>telefon: 0734881987</h5>
+  <h4> mail: ciureaclaudia20@stud.ase.ro</h4>
+</footer>
+
+
+</body>
+</html>
