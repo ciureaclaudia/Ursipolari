@@ -5,6 +5,22 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
+<head>
+    <style>
+        ul {
+	list-style: none;
+        }
+
+        ul li::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+        }
+    </style>
+</head>
 <body>
 
 <!-- Meniu -->
@@ -39,20 +55,6 @@
  <p class="w3-justify"> Aici veți putea găsi informații in legatura cu trei specii de animale care traiesc in zona nordica: </p>
 </section>
 
-<style>
-ul {
-  list-style: none;
-}
-
-ul li::before {
-  content: "\2022";
-  color: red;
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
-}
-</style>
 
 <section class="w3-container w3-center w3-content" style="max-width:600px">
 <ul>
@@ -74,53 +76,7 @@ ul li::before {
   <input type="submit" value="Submit">
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
 </section>
-<head>
-
-
-<script>
-// Automatic Slideshow 
-var ok = 0;
-ana();
-<section class="w3-container  w3-content" style="max-width:100px">
-<style> 
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 3s;
-}
-
-
-</style>
-</section>
-</head>
-
-<div></div>
-
-function ana() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-	@keyframes example {
-	from {background-color: green;}
-  to {background-color: blue;}
-  }}
-  ok++;
-  if (ok > x.length) {ok = 1}
-  x[ok-1].style.display = "block";
-  setTimeout(ana, 3000);
-}
-
-</script>
-
-
-
-
 
 <marquee scrollamount="5"
 direction="left"
@@ -128,12 +84,6 @@ behavior="scroll">
 Bunaaa!
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS72l-nBejpTrJ6xd-1ZOcbPMP_ESqRkvUvA&usqp=CAU" />
 </marquee>
-
-
-
-
-
-
 
 <script>
 // Automatic Slideshow 
